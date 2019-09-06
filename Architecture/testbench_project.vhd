@@ -1,0 +1,69 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+library STD;
+use STD.textio.all;  
+
+-- entity declaration for your testbench.Dont declare any ports here
+ENTITY testbench_project IS 
+END testbench_project;
+
+ARCHITECTURE behavior OF testbench_project IS
+
+    -- Components
+	COMPONENT datapath
+		port (clock: in std_logic;
+				rst: in std_logic;
+				get_reg : in std_logic_vector(3 downto 0);
+				reg_value : out std_logic_vector(15 downto 0)
+		); 
+	END COMPONENT;
+	
+   -- declare inputs and initialize them. You can only initialise 
+   -- values in a testbench; this is not synthesizable, just for
+   -- testing:
+	signal cnt: integer:= 0;
+	signal clk_in, reset_in  : STD_LOGIC:= '0';
+	signal reg_val : std_logic_vector(15 downto 0);
+	signal reg_idx : std_logic_vector(3 downto 0):= "0000";
+BEGIN
+	
+	-- ------------------ Instantiate modules ------------------
+	a: datapath port map (
+		clock => clk_in,
+		rst => reset_in,
+		get_reg => reg_idx,
+		reg_value => reg_val
+	);
+	
+--	b: my_Datapath port map ( << Fill_in_here>>
+--								);
+	
+   stim_proc: process 
+   begin         
+			wait for 50 ns;
+			clk_in <= not(clk_in);
+	end process;
+	
+   stim_proc2: process(clk_in) 
+	begin
+		if rising_edge(clk_in) then
+			cnt <= cnt+1;
+		end if;
+	end process;
+
+	-- This gives a set of simple instructions. It also has a simple flag whenever a new instruction is added
+	process (cnt)
+	begin  
+		case cnt is 
+			-- Reset
+			when 0 to 1	=> reset_in <= '1';
+			when 2 to 10 => reset_in <= '0'; reg_idx <= "0000";
+			when 11 to 20 => reset_in <= '0'; reg_idx <= "0001";
+			when 21 to 30 => reset_in <= '0'; reg_idx <= "0010";
+			when 31 to 200 => reset_in <= '0'; reg_idx <= "0011";
+			when others	=> reset_in <= '1';
+		end case;
+	end process;
+	
+END;

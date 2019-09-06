@@ -1,0 +1,493 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/simulation/modelsim
+Ealu
+Z1 w1559048184
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/alu.vhd
+Z7 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/alu.vhd
+l0
+L14
+VmT2bkThz[N6Reh<zVNKXG2
+!s100 34HTQcKJN4>BQTg_d:@]M0
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1559051296
+!i10b 1
+Z10 !s108 1559051296.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/alu.vhd|
+Z12 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/alu.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioural
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 mT2bkThz[N6Reh<zVNKXG2
+l27
+L25
+VMegcUB;<z>WR@iZ]_beAn3
+!s100 NO@NU86m33DT<a`nOGf5Z2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Econtrol_circuit
+Z15 w1559048264
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R4
+R5
+R0
+Z17 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/control_circuit.vhd
+Z18 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/control_circuit.vhd
+l0
+L7
+V@An<^MQH7<DUa[:cBbHhS2
+!s100 X9DAHC2EXB>CQ=>i4hFb>2
+R8
+31
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/control_circuit.vhd|
+Z20 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/control_circuit.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R16
+R2
+R3
+R4
+R5
+DEx4 work 15 control_circuit 0 22 @An<^MQH7<DUa[:cBbHhS2
+l37
+L24
+V]nk52ZUNiL__9f=5>gk=Z3
+!s100 ZMIJ@<_H[J[TiM^aR=o9P0
+R8
+31
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Edata_source
+Z21 w1559048333
+R2
+R3
+R4
+R5
+R0
+Z22 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/data_source.vhd
+Z23 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/data_source.vhd
+l0
+L6
+V3bzEI3JaeE_BQJ8nYW;662
+!s100 OncKG73M85Q]WdjJSPKDE1
+R8
+31
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/data_source.vhd|
+Z25 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/data_source.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R2
+R3
+R4
+R5
+DEx4 work 11 data_source 0 22 3bzEI3JaeE_BQJ8nYW;662
+l30
+L17
+Vz<S>T_`o?NR<P?@ll=inE1
+!s100 _Q;l`fJjog;7J@cIQCJZ`1
+R8
+31
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Edatapath
+Z26 w1559050100
+R2
+R3
+R4
+R5
+R0
+Z27 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/datapath.vhd
+Z28 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/datapath.vhd
+l0
+L5
+V=UiY4Q8MEUFdge5cS@Z?h3
+!s100 JkYS8eMo]QoSXF[?dZTPV2
+R8
+31
+R9
+!i10b 1
+Z29 !s108 1559051295.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/datapath.vhd|
+Z31 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/datapath.vhd|
+!i113 1
+R13
+R14
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 8 datapath 0 22 =UiY4Q8MEUFdge5cS@Z?h3
+l121
+L15
+VYSKECJjanD0lQDC29FK=@0
+!s100 gK[DkZ;RNEP87@nIGDcTo2
+R8
+31
+R9
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R13
+R14
+Enext_state
+Z32 w1559048293
+R2
+R3
+R4
+R5
+R0
+Z33 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/next_state.vhd
+Z34 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/next_state.vhd
+l0
+L11
+V]JESDUVL`_QK;>iA1:ebY3
+!s100 GLCB=@T]A;9_8mg^[HBAO2
+R8
+31
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/next_state.vhd|
+Z36 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/next_state.vhd|
+!i113 1
+R13
+R14
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 10 next_state 0 22 ]JESDUVL`_QK;>iA1:ebY3
+l21
+L20
+VK1AigcBJJQ:X2E=06S>XE2
+!s100 lGEf_kWERnYb9FVK4To210
+R8
+31
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Eprocessor_regs
+Z37 w1559048037
+R16
+R2
+R3
+R4
+R5
+R0
+Z38 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/processor_regs.vhd
+Z39 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/processor_regs.vhd
+l0
+L6
+VfJ3jmdE4R;i>R[@JNMKiW1
+!s100 AMlkGKPM9O=09jm<jYO=U1
+R8
+31
+R9
+!i10b 1
+R10
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/processor_regs.vhd|
+Z41 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/processor_regs.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R16
+R2
+R3
+R4
+R5
+DEx4 work 14 processor_regs 0 22 fJ3jmdE4R;i>R[@JNMKiW1
+l35
+L19
+VY_Z:T^55Q3RCE09YV[1CF1
+!s100 >LYEl@BS7]NdE3WhI86hZ2
+R8
+31
+R9
+!i10b 1
+R10
+R40
+R41
+!i113 1
+R13
+R14
+Eprogram_counter
+Z42 w1559048408
+R16
+R2
+R3
+R4
+R5
+R0
+Z43 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/program_counter.vhd
+Z44 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/program_counter.vhd
+l0
+L7
+ViSHMlG[kIT9=m=@?<l7H;0
+!s100 [gYhTFA;Vb2jZF]_KXk^V2
+R8
+31
+R9
+!i10b 1
+R10
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/program_counter.vhd|
+Z46 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/program_counter.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R16
+R2
+R3
+R4
+R5
+DEx4 work 15 program_counter 0 22 iSHMlG[kIT9=m=@?<l7H;0
+l21
+L17
+ViEU^AMgV4cg<2[hj<i9<W3
+!s100 cT_Efi?G:2YUNIW3lib4n3
+R8
+31
+R9
+!i10b 1
+R10
+R45
+R46
+!i113 1
+R13
+R14
+Eram
+Z47 w1559048392
+R16
+R2
+R3
+R4
+R5
+R0
+Z48 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/ram.vhd
+Z49 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/ram.vhd
+l0
+L6
+VOAF0jAzzISDza:4MMU<Un3
+!s100 ;BSK;Y@GeVTbLU39eZ:W[2
+R8
+31
+R9
+!i10b 1
+R10
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/ram.vhd|
+Z51 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/ram.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R16
+R2
+R3
+R4
+R5
+DEx4 work 3 ram 0 22 OAF0jAzzISDza:4MMU<Un3
+l71
+L17
+Vz3_1`bHaFVYdZM6RUmoGz0
+!s100 HUWQ5YXCHmNkO79jBL8QH0
+R8
+31
+R9
+!i10b 1
+R10
+R50
+R51
+!i113 1
+R13
+R14
+Ereg
+Z52 w1559048146
+R16
+R2
+R3
+R4
+R5
+R0
+Z53 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/reg.vhd
+Z54 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/reg.vhd
+l0
+L7
+VF5PS7zUodKhe7KJ:Eo7^60
+!s100 651hngoUb4A`TkGcGI`f^3
+R8
+31
+R9
+!i10b 1
+R10
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/reg.vhd|
+Z56 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/reg.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R16
+R2
+R3
+R4
+R5
+DEx4 work 3 reg 0 22 F5PS7zUodKhe7KJ:Eo7^60
+l33
+L20
+V?9IkOmG;:973H@Ib;j7923
+!s100 Cm@RVI<I8mnBZ[BX;D5]61
+R8
+31
+R9
+!i10b 1
+R10
+R55
+R56
+!i113 1
+R13
+R14
+Etestbench_project
+Z57 w1559051267
+R2
+R3
+R4
+R5
+R0
+Z58 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/testbench_project.vhd
+Z59 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/testbench_project.vhd
+l0
+L8
+Vl8mHY<1:A`;@9[V_=G3KO3
+!s100 dNj8MfJO<_MOYNHA3Kgc;0
+R8
+31
+R9
+!i10b 1
+R10
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/testbench_project.vhd|
+Z61 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/testbench_project.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 17 testbench_project 0 22 l8mHY<1:A`;@9[V_=G3KO3
+l29
+L11
+V[8N^gg]ZaM_CMUGb9Sh`82
+!s100 4zn8A]<G[WEbh1hI^dU@B3
+R8
+31
+R9
+!i10b 1
+R10
+R60
+R61
+!i113 1
+R13
+R14
+Etristate
+Z62 w1559048200
+R2
+R3
+R4
+R5
+R0
+Z63 8C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/tristate.vhd
+Z64 FC:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/tristate.vhd
+l0
+L14
+V727iEB`XGGGN>2Ez=TdQL3
+!s100 bSA7^IVR2QkAbm256kSSf3
+R8
+31
+R9
+!i10b 1
+R10
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/tristate.vhd|
+Z66 !s107 C:/Users/Zac/Documents/dev/repo/processor_v12/project_processor_optimised_FPGA_ready_restored/tristate.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R2
+R3
+R4
+R5
+DEx4 work 8 tristate 0 22 727iEB`XGGGN>2Ez=TdQL3
+l24
+L23
+VC4z[0dBZ_]o1JcJF^?2h[2
+!s100 oUUJOQB`2YaI_a;Wk<NUz3
+R8
+31
+R9
+!i10b 1
+R10
+R65
+R66
+!i113 1
+R13
+R14
